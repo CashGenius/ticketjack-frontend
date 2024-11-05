@@ -7,28 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Explore the world effortlessly by train</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="background">
         <h1>Explore the world effortlessly by train!</h1>
         <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack.</p>
-    </div>
-    <div class="container">
-        <div class="search-form">
-            <input type="text" placeholder="Departure">
-            <input type="text" placeholder="Arrival">
-            <input type="date" placeholder="Date">
-            <div class="search-button">Search</div>
-        </div>
-        <div class="information-box">
-            <div class="train_icon">
-                <img src="./images/train.png" alt="train icon">
+        <div class="container">
+            <div class="search-form">
+                <div class="departure-arrival-group">
+                    <input type="text" placeholder="Departure" id='departure-input'>
+                    <input type="text" placeholder="Arrival" id='arrival-input'>
+                </div>
+                <div class="date-group">
+                    <input type="date" placeholder="Date">
+                </div>
+                    <div class="search-button">Search</div>
             </div>
-            It's time to book your future trip.
+            <div class="information-box">
+                    <img src="./images/train.png" alt="train icon" id="train-icon" class="train-icon">
+                    <img src="./images/notfound.png" alt="no results icon" id="no-result-icon" class="no-result-icon" style="display: none;">
+                    <div class="divider"></div>
+                    <p class="slogan">
+                        It's time to book your future trip.
+                    </p>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
