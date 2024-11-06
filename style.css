@@ -57,7 +57,7 @@ p {
     border-radius: 5px;
 }
 
-.search-form .search-button {
+.search-form #search-button {
     margin-top: 125px;
     background-color: #50a790;
     color: white;
@@ -75,7 +75,6 @@ p {
     width: 350px;
     text-align: center;
     height: 350px;
-    overflow: scroll;
 }
 
 .train-icon {

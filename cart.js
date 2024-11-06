@@ -56,7 +56,7 @@ fetch('http://localhost:3000/cart/displayCart')
             .then(response => response.json())
             .then (data => {
                 console.log(data)
-                location.reload();
+                window.location.href = 'http://127.0.0.1:5500/frontend/bookings.html'
             })
         })
     }
