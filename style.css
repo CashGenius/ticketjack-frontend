@@ -29,9 +29,7 @@ h1 {
 }
 
 p {
-    font-size: 22px;
     margin-bottom: 60px;
-    margin-top: 30px;
     font-weight: light;
 }
 
@@ -124,8 +122,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-
-
 }
 
 #cart-booking {
@@ -142,7 +138,10 @@ header {
 }
 
 #logoTickethack {
-    padding-left: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    max-width: 200px;
+    overflow: hidden;
 }
 
 #logoTickethack a {
