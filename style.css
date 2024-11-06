@@ -6,7 +6,9 @@
 
 body, html {
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins,'Poppins', sans-serif;
+    background-color: #EFF2F1;
+    
 }
 
 .background {
@@ -114,3 +116,46 @@ p {
     border-radius: 5px;
 }
     
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+
+}
+
+#cart-booking {
+    display: flex;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#cart-booking a{
+    color: black;
+    text-decoration: none;
+    font-size : 14px;
+    font-weight: 500;
+}
+
+#logoTickethack {
+    padding-left: 20px;
+}
+
+#logoTickethack a {
+    color :#50a790;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bookingsButton {
+    margin-left: 30px;
+
+}
