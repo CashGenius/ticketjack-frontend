@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    background-color: #EFF2F1;
+    
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+
+}
+
+#cart-booking {
+    display: flex;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#cart-booking a{
+    color: black;
+    text-decoration: none;
+    font-size : 14px;
+    font-weight: 500;
+}
+
+#logoTickethack {
+    padding-left: 20px;
+}
+
+#logoTickethack a {
+    color :#50a790;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bookingsButton {
+    margin-left: 30px;
+
+}
+
+#cartSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myCart {
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#totalSection {
+    width: 50%;
+    background-color: #00153E;
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.cartTrip {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5EEEE;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cartTrip * {
+    margin: 0;
+    padding: 0;
+}
+
+#tripList {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#titleMyCart{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+#deleteTrip {
+    background-color: #50a790;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+#totalSection{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#totalSection * {
+    margin: 0;
+    padding: 0;
+}
+
+#purchaseButton {
+    background-color: #50a790;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#total {
+    padding-top: 5px;
+}
