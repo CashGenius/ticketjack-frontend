@@ -31,8 +31,8 @@ fetch('http://localhost:3000/trips/findTrips', {
                 tripsToAdd += `<li class="tripItem">
                             <p>${departure}>${arrival}</p>
                             <p>${hour}</p>
-                            <p>${price}€</p>
-                            <p id="bookingButton">Book</p>
+                            <span class="price"><p>${price}€</p></span>
+                            <button class="bookingButton"><p>Book</p></button>
                         </li>`
             }
             document.querySelector('.information-box').textContent = ''
@@ -40,7 +40,7 @@ fetch('http://localhost:3000/trips/findTrips', {
                     <ul id ="tripList">` + tripsToAdd + `</ul>
                 </div>`
                 document.querySelector('.information-box').style.overflow = "scroll"
-                document.querySelectorAll('#bookingButton').forEach(button => {
+                document.querySelectorAll('.bookingButton').forEach(button => {
                     button.addEventListener('click', function() {
                         const trip = button.previousElementSibling.previousElementSibling.previousElementSibling.textContent;
                         const hour = button.previousElementSibling.previousElementSibling.textContent;

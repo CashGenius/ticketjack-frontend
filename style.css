@@ -186,7 +186,7 @@ a {
     padding: 0;
 }
 
-#bookingButton {
+.bookingButton {
     background-color: #50a790;
     width: 50px;
     height: 30px;
@@ -196,6 +196,7 @@ a {
     align-items: center;
     color: white;
     font-size: 12px;
+    border: none
 }
 
 #tripContainer {
@@ -211,5 +212,9 @@ a {
 
 #departure-input{
     border-radius: 5px 5px 0px 0px;
+}
+
+.price{
+    font-weight: 600;
 }
 
